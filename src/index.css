@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1E1E1E;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+
+  color: #EFEFF1;
+}
+.wrapper {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.rm {
+  background: white;
+  border-radius: 50%;
+  color: blue;
+  border: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+input{
+  margin-left: 10px;
+}
+button{
+  border:2px;
+  border-color:red;
+  background-color: blueviolet;
+  margin: 1px;
+  padding: 0.5%;
+  color: white;
+
+  
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.lds-dual-ring:after {
+  content: ' ';
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #8A2BE2;
+  border-color: #8A2BE2 transparent #8A2BE2 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
